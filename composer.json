@@ -1,0 +1,14 @@
+{
+  "name" : "Spider",
+  "description" : "novel",
+  "type" : "project",
+  "autoload" : {
+    "psr-4" : {
+      "Fd\\" : "framework/",
+      "Novel\\" : "src/"
+    },
+    "files" : [
+      "framework/functions.php"
+    ]
+  }
+}
